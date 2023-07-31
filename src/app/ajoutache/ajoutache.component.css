@@ -1,0 +1,81 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap'); */
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+
+.h1,
+h1 {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background: #0D0D0D;
+    color: #5E60CE;
+    font-family: inter;
+    font-weight: 900;
+    font-size: 40px;
+    Line-height: 48.41px;
+    
+}
+
+.todo{
+    padding-top: 72px ;
+}
+
+#task{
+    /* background: #262626; */
+    /* color: #808080; */
+    color: #262626;
+    width: 638px;
+    height: 54px;
+    /* border: 1px dashed #0D0D0D; */
+   
+}
+
+input::placeholder{
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+        width:192px;
+        height: 22px;
+        color: #808080;
+        font-family: inter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22.4px;
+        background: #262626;
+    }
+
+#submitButton {
+    /* margin-top: ; */
+    height: 52px;
+    width: 90px;
+    border-radius: 8px;
+    padding: 16px;
+    gap: 8px;
+}
+
+.form-group{
+    gap: 8px;
+    /* padding: 16px; */
+    border: 1px #0D0D0D dashed ;
+    display: flex;
+    width: 736px;
+     align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+
+
+#myCheckbox {
+    margin-left: 0px;
+}
+
+.table{
+    align-items:center;
+    justify-content: center;
+    text-align: left;
+}
